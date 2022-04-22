@@ -14,6 +14,15 @@ notify(“a message");
 function add(op1,op2) {
 return (parseInt(op1) + parseInt(op2));
 }
+function sub(op1,op2) {
+return (parseInt(op1) - parseInt(op2));
+}
+function mul(op1,op2) {
+return (parseInt(op1) * parseInt(op2));
+}
+function div(op1,op2) {
+return (parseInt(op1) / parseInt(op2));
+}
 </script>
 <h1>A 2 Function Calculator</h1>
 <script>
@@ -21,5 +30,8 @@ op1 = prompt("Enter the First Number");
 op = prompt("Enter the Operation");
 op2 = prompt("Enter the Second Number");
 if (op == "+") alert(add(op1,op2));
+if (op == "-") alert(sub(op1,op2));
+if (op == "*") alert(mul(op1,op2));
+if (op == "/") alert(div(op1,op2));
 </script>
 
